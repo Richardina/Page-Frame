@@ -9,9 +9,9 @@ You should execute the following commands depending on your situation.
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8080  (If you see the word 'compile successfully' after execute the following command, it proves that the installation dependencies are successful, then you can access the project by typing 'http://localhost:8080' in your browser.)
 npm run dev  
-// If you see the word 'compile successfully', it proves that the installation dependencies are successful, then you can access the project by typing 'http://localhost:8080' in your browser.
+
 
 # build for production with minification
 npm run build
