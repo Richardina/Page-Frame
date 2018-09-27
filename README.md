@@ -10,7 +10,8 @@ You should execute the following commands depending on your situation.
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run dev  
+// If you see the word 'compile successfully', it proves that the installation dependencies are successful, then you can access the project by typing 'http://localhost:8080' in your browser.
 
 # build for production with minification
 npm run build
@@ -23,5 +24,16 @@ npm run unit
 
 # run all tests
 npm test
+```
+
+## ps
+> #### If it takes too much time to execute the 'npm install' command, you can try installing 'cnpm' and then executing 'npm install'.
+
+``` bash
+# install cnpm
+sudo npm install cnpm -g --registry=https://registry.npm.taobao.org
+
+# install dependencies
+npm install
 ```
 
