@@ -1,7 +1,7 @@
 {
-  "name": "webpack_vue_demo",
+  "name": "frame_front",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "The Front of Frame",
   "author": "",
   "private": true,
   "scripts": {
