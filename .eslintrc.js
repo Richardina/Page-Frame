@@ -24,6 +24,13 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    //不允许混用tab和空格
+    "no-mixed-spaces-and-tabs": 0,
+    //函数定义时括号前的空格
+    "space-before-function-paren": [0, "always"],
+    //一行结束后面不要有空格
+    "no-trailing-spaces": 0,
+    'no-tabs': 0
   }
 }
